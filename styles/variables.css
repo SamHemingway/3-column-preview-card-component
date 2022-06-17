@@ -1,0 +1,35 @@
+:root {
+  /* Colours */
+
+  --clr-primary: hsl(31, 77%, 52%); /* Most common colour, example: body background colour. */
+  --clr-secondary: hsl(184, 100%, 22%); /* Secondary colour, example: component background */
+  --clr-tertiary: hsl(179, 100%, 13%); /* Tertiary colour, example: border, hr. */
+  --clr-important: hsl(0, 0%, 95%); /* Secondary attention in element, examples: strong tags, buttons or hover colour. */
+  --clr-content: hsla(0, 0%, 100%, 0.75); /* Used on high-frequency elements, example: body text. */
+
+  /* Font families */
+
+  --ff-body: "Lexend Deca", sans-serif;
+  --ff-header: "Big Shoulders Display", sans-serif;
+
+  /* Font sizes */
+
+  --fs-md: 0.9375rem;
+  --fs-lg: 2.5rem;
+
+  /* Font weights */
+
+  --fw-reg: 400;
+  --fw-bold: 700;
+
+  /* Gutters */
+
+  --g-sm: 1.5rem; /* 24px */
+  --g-md: 2.25rem; /* 36px */
+  --g-lg: 3rem; /* 48px */
+
+  /* Radii */
+
+  --rad-sm: 0.5rem;
+  --rad-pill: 100vh;
+}
