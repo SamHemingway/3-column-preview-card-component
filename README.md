@@ -28,6 +28,7 @@ Users should be able to:
 
 - Use BEM to organise CSS.
 - Try to avoid using media queries and instead just let Flexbox naturally take care of reponsive layout.
+- Design the card-stack so that, if in the future more than 3 cards were required, the additional cards would just automatically style themselves rather than requiring another class such as `card-4` etc.
 
 ### Screenshot
 
@@ -35,8 +36,8 @@ Users should be able to:
 
 ### Links
 
-- [Solution URL](https://www.frontendmentor.io/solutions/profile-card-component-TLIvKinbo8)
-- [Live Site URL](https://sh-profile-card-component.netlify.app/)
+- [Solution URL](https://www.frontendmentor.io/solutions/column-card-preview-PDLV9jHtGA)
+- [Live Site URL](https://sh-column-preview-card-component.netlify.app/)
 
 ## My process
 
@@ -50,6 +51,7 @@ Users should be able to:
 
 - The beauty of `mix-blend-mode` when you need text of a button to match the background behind it. Thank goodness there's across-the-range support for this.
 - It's impossible to have both responsiveness taken care of by flexbox whilst simulatenously wanting a different height for flex-items at different viewport sizes.
+- How to use the `nth-child` selector so that you can select child elements and give them different properties. I did this as I imagine there might be a situation where it's necessary to add additional cards to the card-stack, so I wanted to write CSS that would work in that hypothetical.
 
 ### Useful resources
 

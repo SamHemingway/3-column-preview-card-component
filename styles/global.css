@@ -101,7 +101,7 @@ body {
   font-family: var(--ff-body);
   color: var(--clr-content);
   font-size: var(--fs-md);
-  background: var(--clr-content);
+  background: #f3f3f2;
   font-weight: var(--fw-reg);
 }
 
